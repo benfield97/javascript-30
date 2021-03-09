@@ -103,10 +103,10 @@
 
     let reduceData = data.reduce((acc, val) => {
 
-         if (acc[`${val}`]) {
-            acc[`${val}`] += 1;
+         if (acc[val]) {
+            acc[val] += 1;
          } else {
-            acc[`${val}`] = 1;
+            acc[val] = 1;
          }
 
          return acc;
